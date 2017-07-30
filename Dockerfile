@@ -7,7 +7,7 @@ MAINTAINER Julian Steffen
 EXPOSE 9090 9443 9999 9009
 
 ENV TOMCAT_MAJOR 8
-ENV TOMCAT_VERSION 8.0.43
+ENV TOMCAT_VERSION 8.0.45
 ENV TOMCAT_TGZ_URL https://www.apache.org/dyn/closer.cgi?action=download&filename=tomcat/tomcat-$TOMCAT_MAJOR/v$TOMCAT_VERSION/bin/apache-tomcat-$TOMCAT_VERSION.tar.gz
 
 ENV CATALINA_HOME=/opt/tomcat
